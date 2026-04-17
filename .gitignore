@@ -1,0 +1,22 @@
+# Pasta de build e arquivos de classe
+bin/
+*.class
+
+# Pastas de build do Maven/Gradle
+target/
+.gradle/
+build/
+
+# Configurações do Eclipse (opcional, mas recomendado ignorar locais)
+.settings/
+.project
+.classpath
+
+# Arquivos de usuário
+*.user
+*.bak
+*.tmp
+*.log
+
+# Pasta oculta do Git
+.git/
