@@ -1,5 +1,10 @@
 package fundamentals;
 
+/**
+ * @author Lucas Silva
+ * @since JDK1.0
+ * @see <a href="https://www.linkedin.com/in/lucas-nathan-h-silva" >LinkedIn</a>
+ */
 public class CircumferenceArea {
 	private double area;
 	private double radius;
@@ -9,6 +14,10 @@ public class CircumferenceArea {
 		this.setRadius(radius);
 	}
 
+	/**
+	 * 
+	 * @return area calculus result
+	 */
 	public double getArea() {
 		return area;
 	}
@@ -27,7 +36,6 @@ public class CircumferenceArea {
 	}
 
 	public static void main(String[] args) {
-
 		double radius = 1;
 		CircumferenceArea circumference = new CircumferenceArea(radius);
 		// Constant due to final word
