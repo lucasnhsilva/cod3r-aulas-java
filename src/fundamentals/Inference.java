@@ -14,6 +14,8 @@ public class Inference {
 
 		log.info(String.valueOf(a));
 
+		// Inferred types need to be declared and initialized
+		// cannot declare and initialize further
 		var b = 4.7; // Inferred double type
 
 		log.info(String.valueOf(b));
