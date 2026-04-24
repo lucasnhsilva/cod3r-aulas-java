@@ -50,6 +50,10 @@ public class LoggerModule {
 		logger.info(msg);
 	}
 
+	public void info(String msg, Object... args) {
+		logger.info(String.format(msg, args));
+	}
+
 	public void warning(String msg) {
 		logger.warning(msg);
 	}
