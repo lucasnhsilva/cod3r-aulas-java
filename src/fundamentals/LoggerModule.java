@@ -54,6 +54,10 @@ public class LoggerModule {
 		logger.info(String.format(msg, args));
 	}
 
+	public void info(Object msg) {
+		logger.info(String.valueOf(msg));
+	}
+
 	public void warning(String msg) {
 		logger.warning(msg);
 	}
